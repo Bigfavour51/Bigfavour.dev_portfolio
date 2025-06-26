@@ -47,14 +47,14 @@ const Contact = () => {
     {
       icon: FiMail,
       label: 'Email',
-      value: 'hello@bigfavour.dev',
-      href: 'mailto:hello@bigfavour.dev'
+      value: 'bigfavour51@gmail.com',
+      href: 'mailto:bigfavour51@gmail.com'
     },
     {
       icon: FaWhatsapp,
       label: 'WhatsApp',
-      value: '+234 906 123 4567',
-      href: 'https://wa.me/2349061234567'
+      value: '07041256378',
+      href: 'https://wa.me/2347041256378'
     },
     {
       icon: FiMapPin,
@@ -86,7 +86,7 @@ const Contact = () => {
     {
       icon: FaWhatsapp,
       label: 'WhatsApp',
-      href: 'https://wa.me/2349061234567',
+      href: 'https://wa.me/2347041256378',
       color: 'hover:text-green-400'
     }
   ];

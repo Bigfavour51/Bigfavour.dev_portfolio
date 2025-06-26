@@ -21,13 +21,13 @@ const Footer = () => {
     },
     {
       icon: FaWhatsapp,
-      href: 'https://wa.me/2349061234567',
+      href: 'https://wa.me/2347041256378',
       label: 'WhatsApp',
       color: 'hover:text-green-400'
     },
     {
       icon: FiMail,
-      href: 'mailto:hello@bigfavour.dev',
+      href: 'mailto:bigfavour51@gmail.com',
       label: 'Email',
       color: 'hover:text-primary-400'
     }
