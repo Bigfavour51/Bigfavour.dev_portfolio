@@ -46,7 +46,7 @@ const Hero = () => {
                 className="flex items-center space-x-2 text-gray-400"
               >
                 <FiMapPin className="text-primary-400" />
-                <span>Lagos, Nigeria</span>
+                <span>Abuja, Nigeria</span>
               </motion.div>
               
               <motion.h1
@@ -56,7 +56,8 @@ const Hero = () => {
                 className="text-4xl lg:text-6xl font-bold"
               >
                 Hi, I'm{' '}
-                <span className="gradient-text">Bigfavour</span>
+                <span className="gradient-text">Aina Favour Olalekan</span>
+                <span className="text-base text-gray-400 font-normal ml-2">(Bigfavour)</span>
               </motion.h1>
               
               <motion.h2
@@ -65,7 +66,7 @@ const Hero = () => {
                 transition={{ delay: 0.4 }}
                 className="text-xl lg:text-2xl text-gray-300 font-medium"
               >
-                Embedded Systems Engineer | Tech Innovator | SaaS Enthusiast
+                Embedded Systems Engineer | Web & Mobile App Developer | Tech Innovator | SaaS Enthusiast
               </motion.h2>
             </div>
 
@@ -148,8 +149,8 @@ const Hero = () => {
               >
                 <div className="w-full h-full rounded-full bg-dark-800 flex items-center justify-center overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
-                    alt="Bigfavour Aina - Embedded Systems Engineer"
+                    src="/IMG_1032.jpeg"
+                    alt="Aina Favour Olalekan - Embedded Systems Engineer, Web & Mobile App Developer"
                     className="w-full h-full object-cover rounded-full"
                     loading="lazy"
                   />

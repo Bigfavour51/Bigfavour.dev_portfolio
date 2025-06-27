@@ -27,10 +27,11 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            About <span className="gradient-text">Me</span>
+            About <span className="gradient-text">Aina Favour Olalekan</span>
+            <span className="text-base text-gray-400 font-normal ml-2">(Bigfavour)</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Transforming ideas into reality through cutting-edge technology and innovative engineering solutions
+            Transforming ideas into reality through cutting-edge technology and innovative engineering solutions. I am an Embedded Systems Engineer, Web & Mobile App Developer, and Tech Innovator based in Abuja, Nigeria.
           </p>
         </motion.div>
 

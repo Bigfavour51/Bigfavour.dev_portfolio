@@ -59,8 +59,8 @@ const Contact = () => {
     {
       icon: FiMapPin,
       label: 'Location',
-      value: 'Lagos, Nigeria',
-      href: 'https://maps.google.com/?q=Lagos,Nigeria'
+      value: 'Abuja, Nigeria',
+      href: 'https://maps.google.com/?q=Abuja,Nigeria'
     }
   ];
 

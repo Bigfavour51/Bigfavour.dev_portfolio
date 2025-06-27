@@ -63,7 +63,7 @@ const Footer = () => {
               </p>
               <div className="flex items-center space-x-2 text-gray-400 mb-4">
                 <FiMapPin className="text-primary-400" size={16} />
-                <span>Lagos, Nigeria</span>
+                <span>Abuja, Nigeria</span>
               </div>
               <div className="flex space-x-4">
                 {socialLinks.map((link) => (

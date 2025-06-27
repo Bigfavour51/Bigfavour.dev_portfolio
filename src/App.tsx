@@ -26,12 +26,12 @@ function App() {
           <About />
           <Skills />
           <Suspense fallback={<div className="text-center py-10">Loading Projects...</div>}>
-            <Projects />
+          <Projects />
           </Suspense>
           <Certifications />
           <Now />
           <Suspense fallback={<div className="text-center py-10">Loading Blog...</div>}>
-            <Blog />
+          <Blog />
           </Suspense>
           <Contact />
         </motion.div>

@@ -26,8 +26,7 @@ const Skills = () => {
         { name: 'C/C++', level: 95 },
         { name: 'Python', level: 90 },
         { name: 'JavaScript/TypeScript', level: 85 },
-        { name: 'Assembly', level: 80 },
-        { name: 'Rust', level: 70 }
+        { name: 'Assembly', level: 80 }
       ],
       color: 'secondary'
     },
@@ -37,8 +36,7 @@ const Skills = () => {
         { name: 'MQTT/CoAP', level: 90 },
         { name: 'WiFi/Bluetooth', level: 85 },
         { name: 'LoRaWAN', level: 80 },
-        { name: 'Cellular (4G/5G)', level: 75 },
-        { name: 'Edge Computing', level: 85 }
+        { name: 'Cellular (4G/5G)', level: 75 }
       ],
       color: 'purple'
     },
@@ -58,7 +56,8 @@ const Skills = () => {
   const tools = [
     'Keil MDK', 'STM32CubeIDE', 'PlatformIO', 'Altium Designer',
     'KiCad', 'MATLAB/Simulink', 'LabVIEW', 'Git/GitHub',
-    'Jira', 'Docker', 'AWS/Azure', 'Figma'
+    'Jira', 'Docker', 'AWS/Azure', 'Figma',
+    'EEZ Studio', 'DGUS DWIN', 'Arduino', 'Canva', 'Typescript', 'EasyEDA', 'ThingSpeak', 'Blynk', 'Fritzing'
   ];
 
   const getColorClasses = (color: string) => {
