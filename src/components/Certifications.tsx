@@ -69,9 +69,9 @@ const Certifications = () => {
   const education = [
     {
       degree: 'Bachelor of Engineering - Electrical/Electronics Engineering',
-      institution: 'University of Lagos',
-      location: 'Lagos, Nigeria',
-      year: '2018 - 2022',
+      institution: 'University of Abuja',
+      location: 'FCT, Nigeria',
+      year: '2026 - 2028',
       gpa: '4.2/5.0',
       achievements: [
         'First Class Honours',
@@ -80,13 +80,13 @@ const Certifications = () => {
       ]
     },
     {
-      degree: 'Advanced Diploma - Embedded Systems Design',
-      institution: 'National Institute of Technology',
-      location: 'Abuja, Nigeria',
-      year: '2020',
+      degree: 'Higher National Diploma - Computer Engineering',
+      institution: 'Federal Polytechnic, Ilaro',
+      location: 'Ilaro, Nigeria',
+      year: '2023',
       achievements: [
         'Distinction Grade',
-        'Industry Partnership Project with Siemens Nigeria'
+        'Smart Irrigation using Variable Rate Technology '
       ]
     }
   ];
