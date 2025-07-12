@@ -11,12 +11,12 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: 'ARM Cortex-M Programming',
-      issuer: 'ARM University',
+      title: 'Professional PCB Design using EASYEDA',
+      issuer: 'UDEMY',
       date: '2024',
-      description: 'Advanced embedded systems programming and optimization for ARM Cortex-M processors',
-      credentialId: 'ARM-CM-2024-001',
-      category: 'Embedded Systems',
+      description: 'Advance lectures on designing printed circuit boards',
+      credentialId: 'EASYEDA01-CM-2024-001',
+      category: 'Electronics',
       logo: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=100'
     },
     {
