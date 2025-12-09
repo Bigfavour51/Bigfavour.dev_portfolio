@@ -66,7 +66,7 @@ const Hero = () => {
                 transition={{ delay: 0.4 }}
                 className="text-xl lg:text-2xl text-gray-300 font-medium"
               >
-                Embedded Systems Engineer | Web & Mobile App Developer | Tech Innovator | SaaS Enthusiast
+                Robotics and Edge AI specialist | Embedded Linux Engineer | Web & Mobile App Developer | Tech Innovator | SaaS Developer
               </motion.h2>
             </div>
 
@@ -76,7 +76,7 @@ const Hero = () => {
               transition={{ delay: 0.5 }}
               className="text-lg text-gray-400 leading-relaxed max-w-2xl"
             >
-              Passionate about creating innovative solutions through embedded systems, 
+              Passionate about creating innovative solutions through Robotics and AI, embedded systems, 
               IoT technologies, and modern software development. I bridge the gap between 
               hardware and software to build the future of technology.
             </motion.p>

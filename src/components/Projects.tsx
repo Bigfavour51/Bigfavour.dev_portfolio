@@ -40,7 +40,7 @@ const Projects = () => {
       category: 'IoT',
       description: 'Advanced home security system with facial recognition, mobile alerts, and remote monitoring capabilities.',
       fullDescription: 'An intelligent home security system that combines computer vision, IoT sensors, and mobile connectivity. Features include facial recognition, motion detection, door/window sensors, and real-time notifications to homeowners via mobile app.',
-      technologies: ['Raspberry Pi', 'OpenCV', 'Python', 'Flutter', 'Firebase'],
+      technologies: ['Raspberry Pi', 'OpenCV', 'Python', 'Flutter', 'Superbase'],
       image: 'https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=600',
       github: 'https://github.com/Bigfavour51',
       demo: '#',
@@ -73,11 +73,11 @@ const Projects = () => {
       category: 'IoT',
       description: 'Intelligent energy monitoring and management system for residential and commercial buildings.',
       fullDescription: 'An advanced energy management solution that monitors power consumption patterns, identifies energy waste, and provides automated control over electrical systems. Includes predictive analytics for energy optimization.',
-      technologies: ['ESP32', 'MQTT', 'InfluxDB', 'Vue.js', 'Docker'],
+      technologies: ['ESP32', 'MQTT', 'DynamoDb', 'Vue.js', 'Docker'],
       image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=600',
       github: 'https://github.com/Bigfavour51',
       demo: '#',
-      featured: false
+      featured: true
     },
     {
       title: 'Inventory Management SaaS',
