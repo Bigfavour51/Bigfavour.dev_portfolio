@@ -10,54 +10,68 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Embedded Systems',
+      title: 'Robotics & Autonomous Systems',
       skills: [
-        { name: 'STM32 Microcontrollers', level: 95 },
-        { name: 'ARM Cortex-M', level: 90 },
-        { name: 'RTOS (FreeRTOS)', level: 85 },
-        { name: 'Hardware Design', level: 80 },
-        { name: 'PCB Design', level: 75 }
+        { name: 'Mobile Robots Design & Control', level: 90 },
+        { name: 'Sensor Fusion (IMU, Ultrasonic, Encoders, Cameras)', level: 85 },
+        { name: 'Motor Drivers & Kinematics', level: 88 },
+        { name: 'Navigation Logic', level: 85 },
+        { name: 'Raspberry Pi & BeagleBone Black', level: 90 }
       ],
       color: 'primary'
     },
     {
-      title: 'Programming Languages',
+      title: 'Embedded Systems & Firmware',
       skills: [
-        { name: 'C/C++', level: 95 },
-        { name: 'Python', level: 90 },
-        { name: 'JavaScript/TypeScript', level: 85 },
-        { name: 'Assembly', level: 80 }
+        { name: 'STM32, ESP32, AVR, PIC', level: 95 },
+        { name: 'C/C++ Real-time Firmware', level: 95 },
+        { name: 'Peripheral Drivers (UART, SPI, I2C, ADC, PWM)', level: 90 },
+        { name: 'Embedded Linux Driver Development', level: 85 },
+        { name: 'Buildroot & Yocto Project', level: 88 }
       ],
       color: 'secondary'
     },
     {
-      title: 'IoT & Connectivity',
+      title: 'Edge AI & Computing',
       skills: [
-        { name: 'MQTT/CoAP', level: 90 },
-        { name: 'WiFi/Bluetooth', level: 85 },
-        { name: 'LoRaWAN', level: 80 },
-        { name: 'Cellular (4G/5G)', level: 75 }
+        { name: 'Edge AI Model Deployment', level: 85 },
+        { name: 'Device-level Inference', level: 85 },
+        { name: 'Data Acquisition & Preprocessing', level: 88 },
+        { name: 'System-level Optimization for Low-power Devices', level: 82 }
       ],
       color: 'purple'
     },
     {
-      title: 'Software Development',
+      title: 'IoT, Web & Mobile Platforms',
       skills: [
-        { name: 'React/Next.js', level: 90 },
-        { name: 'Node.js', level: 85 },
-        { name: 'Cloud Platforms', level: 80 },
-        { name: 'Docker/Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 80 }
+        { name: 'TypeScript & JavaScript', level: 90 },
+        { name: 'React', level: 88 },
+        { name: 'Backend & APIs for IoT', level: 85 },
+        { name: 'Supabase (Auth, DB, Storage)', level: 85 },
+        { name: 'Real-time Device Monitoring Dashboards', level: 88 },
+        { name: 'OTA-ready Architectures', level: 80 }
       ],
       color: 'orange'
+    },
+    {
+      title: 'Cloud & DevOps (IoT-Focused)',
+      skills: [
+        { name: 'AWS IoT Core', level: 88 },
+        { name: 'API Gateway, Lambda, DynamoDB, S3', level: 85 },
+        { name: 'Linux & Shell Scripting', level: 90 },
+        { name: 'Version Control (Git)', level: 92 },
+        { name: 'Supabase', level: 85 }
+      ],
+      color: 'green'
     }
   ];
 
   const tools = [
-    'Keil MDK', 'STM32CubeIDE', 'PlatformIO', 'Altium Designer',
-    'KiCad', 'MATLAB/Simulink', 'LabVIEW', 'Git/GitHub',
-    'Jira', 'Docker', 'AWS/Azure', 'Figma',
-    'EEZ Studio', 'DGUS DWIN', 'Arduino', 'Canva', 'Typescript', 'EasyEDA', 'ThingSpeak', 'Blynk', 'Fritzing'
+    'STM32CubeIDE', 'PlatformIO', 'EasyEDA', 'KiCad', 'EEZ Studio',
+    'Buildroot', 'Yocto Project', 'Raspberry Pi', 'BeagleBone Black',
+    'Git/GitHub', 'Linux', 'Shell Scripting', 'AWS IoT Core',
+    'Supabase', 'TypeScript', 'React', 'DGUS DWIN', 'Arduino',
+    'ThingSpeak', 'Blynk', 'Fritzing', 'MATLAB/Simulink'
   ];
 
   const getColorClasses = (color: string) => {
@@ -65,7 +79,8 @@ const Skills = () => {
       primary: 'from-primary-500 to-primary-600',
       secondary: 'from-secondary-500 to-secondary-600',
       purple: 'from-purple-500 to-purple-600',
-      orange: 'from-orange-500 to-orange-600'
+      orange: 'from-orange-500 to-orange-600',
+      green: 'from-green-500 to-green-600'
     };
     return colors[color as keyof typeof colors] || colors.primary;
   };
@@ -89,7 +104,7 @@ const Skills = () => {
         </motion.div>
 
         {/* Skills Categories */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-16">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}

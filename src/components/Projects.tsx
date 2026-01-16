@@ -25,70 +25,59 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
-      title: 'Smart IoT Environmental Monitoring System',
-      category: 'Embedded Systems',
-      description: 'Real-time environmental monitoring system using STM32 microcontrollers with cloud connectivity for industrial applications.',
-      fullDescription: 'A comprehensive IoT solution that monitors temperature, humidity, air quality, and other environmental parameters in real-time. The system uses STM32 microcontrollers for data acquisition, processes sensor data locally, and transmits to cloud platforms for analytics and visualization.',
-      technologies: ['STM32', 'FreeRTOS', 'MQTT', 'AWS IoT', 'React Dashboard'],
+      title: 'Autonomous Mobile Robot Platform (Norah)',
+      category: 'Robotics',
+      description: 'Designed and built a mobile robot using SBC + microcontroller architecture with integrated sensors for environment awareness and autonomous navigation.',
+      fullDescription: 'A complete autonomous mobile robot platform featuring a hybrid SBC + microcontroller architecture. The system integrates multiple sensors (IMU, ultrasonic, encoders, cameras) for comprehensive environment awareness. Implemented motor control, kinematics, and autonomous movement logic with edge intelligence for local decision-making. The robot can navigate autonomously, avoid obstacles, and perform tasks without constant human intervention.',
+      technologies: ['Raspberry Pi', 'BeagleBone Black', 'STM32', 'Embedded Linux', 'Sensor Fusion', 'Motor Drivers', 'Edge AI'],
       image: 'https://images.pexels.com/photos/159613/ghettoblaster-radio-recorder-boombox-old-159613.jpeg?auto=compress&cs=tinysrgb&w=600',
       github: 'https://github.com/Bigfavour51',
       demo: '#',
       featured: true
     },
     {
-      title: 'Automated Home Security System',
+      title: 'End-to-End IoT Platform (Hardware → Cloud → Web)',
       category: 'IoT',
-      description: 'Advanced home security system with facial recognition, mobile alerts, and remote monitoring capabilities.',
-      fullDescription: 'An intelligent home security system that combines computer vision, IoT sensors, and mobile connectivity. Features include facial recognition, motion detection, door/window sensors, and real-time notifications to homeowners via mobile app.',
-      technologies: ['Raspberry Pi', 'OpenCV', 'Python', 'Flutter', 'Superbase'],
+      description: 'Designed custom IoT hardware and built a full-stack platform for device monitoring and control with secure communication and real-time data visualization.',
+      fullDescription: 'A comprehensive end-to-end IoT solution from hardware to cloud to web interface. Designed custom IoT hardware with ESP32 microcontrollers, developed firmware for device communication, and built a complete cloud backend using AWS IoT Core. Created a modern web dashboard using React and TypeScript for real-time device monitoring and control. Implemented secure device authentication, OTA updates, and real-time data visualization with Supabase integration for data persistence and user management.',
+      technologies: ['ESP32', 'AWS IoT Core', 'TypeScript', 'React', 'Supabase', 'API Gateway', 'Lambda', 'DynamoDB'],
       image: 'https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=600',
       github: 'https://github.com/Bigfavour51',
       demo: '#',
       featured: true
     },
     {
-      title: 'Industrial Control Dashboard',
-      category: 'SaaS',
-      description: 'Web-based dashboard for monitoring and controlling industrial equipment with real-time data visualization.',
-      fullDescription: 'A modern web application built for industrial automation, providing real-time monitoring, control, and analytics for manufacturing equipment. Features include customizable dashboards, alarm management, and historical data analysis.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Chart.js'],
+      title: 'Embedded Linux Household Power Monitoring & Control Device',
+      category: 'Embedded Linux',
+      description: 'Built a custom Embedded Linux system using Buildroot for household power management with touchscreen HMI and real-time electrical parameter monitoring.',
+      fullDescription: 'A sophisticated household power monitoring and control device built on a custom Embedded Linux platform. Configured the Linux kernel, root filesystem, and boot process using Buildroot for a lightweight, fast-booting system optimized for low-resource operation. Integrated a touchscreen HMI and developed a touch-based UI with EEZ Studio to monitor electrical parameters (voltage, current, power) in real-time. Implemented hardware communication via UART/SPI/GPIO for reliable load switching, system monitoring, and continuous operation. The device enables users to monitor energy consumption and control household loads efficiently.',
+      technologies: ['Buildroot', 'Embedded Linux', 'Yocto Project', 'EEZ Studio', 'UART/SPI/GPIO', 'Touchscreen HMI', 'C/C++'],
       image: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600',
       github: 'https://github.com/Bigfavour51',
       demo: '#',
-      featured: false
+      featured: true
     },
     {
-      title: 'Wireless Sensor Network',
+      title: 'Electrical Power Station for Micro Enterprises',
       category: 'Embedded Systems',
-      description: 'Multi-node wireless sensor network for agricultural monitoring using LoRaWAN technology.',
-      fullDescription: 'A scalable wireless sensor network designed for precision agriculture. The system deploys multiple sensor nodes across farm areas to monitor soil moisture, temperature, and crop health, transmitting data via LoRaWAN to a central gateway.',
-      technologies: ['STM32', 'LoRaWAN', 'Python', 'PostgreSQL', 'Grafana'],
+      description: 'Led the design of an electrical power station targeted for small energy consumers and micro enterprises as part of Innov8 Hub TETFAIR project.',
+      fullDescription: 'Led a team in designing a specialized electrical power station solution for micro enterprises and small energy consumers. The system provides reliable power management and monitoring capabilities tailored for small businesses. Integrated embedded systems for power distribution, monitoring, and control with user-friendly interfaces for non-technical users.',
+      technologies: ['STM32', 'Embedded Systems', 'Power Electronics', 'PCB Design', 'C/C++'],
       image: 'https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=600',
       github: 'https://github.com/Bigfavour51',
       demo: '#',
       featured: false
     },
     {
-      title: 'Smart Energy Management System',
-      category: 'IoT',
-      description: 'Intelligent energy monitoring and management system for residential and commercial buildings.',
-      fullDescription: 'An advanced energy management solution that monitors power consumption patterns, identifies energy waste, and provides automated control over electrical systems. Includes predictive analytics for energy optimization.',
-      technologies: ['ESP32', 'MQTT', 'DynamoDb', 'Vue.js', 'Docker'],
+      title: 'Telecom Battery Management System Diagnostics',
+      category: 'Embedded Systems',
+      description: 'Part of a 4-person team involved in diagnostics and repair of faulty telecommunications site Battery Management Systems.',
+      fullDescription: 'Worked as part of a specialized team to diagnose and repair Battery Management Systems (BMS) for telecommunications infrastructure. Performed system-level diagnostics, identified faults, and implemented repair solutions to ensure reliable power backup for telecom sites. Gained hands-on experience with industrial embedded systems and power management technologies.',
+      technologies: ['BMS', 'System Diagnostics', 'Embedded Electronics', 'Power Systems'],
       image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=600',
       github: 'https://github.com/Bigfavour51',
       demo: '#',
-      featured: true
-    },
-    {
-      title: 'Inventory Management SaaS',
-      category: 'SaaS',
-      description: 'Cloud-based inventory management system with barcode scanning and real-time tracking.',
-      fullDescription: 'A comprehensive inventory management platform designed for small to medium businesses. Features include barcode/QR code scanning, automated reorder points, supplier management, and detailed analytics with customizable reports.',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Stripe'],
-      image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=600',
-      github: 'https://github.com/Bigfavour51',
-      demo: '#',
-      featured: true
+      featured: false
     }
   ];
 
@@ -114,7 +103,7 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Showcasing innovative solutions across embedded systems, IoT, and software development
+            Showcasing innovative solutions across robotics, embedded systems, IoT, and edge AI development
           </p>
         </motion.div>
 

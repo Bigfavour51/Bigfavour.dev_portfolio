@@ -27,7 +27,7 @@ const Footer = () => {
     },
     {
       icon: FiMail,
-      href: 'mailto:bigfavour51@gmail.com',
+      href: 'mailto:favouraina51@gmail.com',
       label: 'Email',
       color: 'hover:text-primary-400'
     }
@@ -58,8 +58,8 @@ const Footer = () => {
                 Bigfavour.dev
               </h3>
               <p className="text-gray-400 mb-4 max-w-md">
-                Embedded Systems Engineer and Tech Innovator based in Lagos, Nigeria. 
-                Building the future through innovative hardware and software solutions.
+                Robotics, Embedded Systems, and Edge AI Engineer based in Abuja, Nigeria. 
+                Building complete systems end-to-end from hardware to cloud.
               </p>
               <div className="flex items-center space-x-2 text-gray-400 mb-4">
                 <FiMapPin className="text-primary-400" size={16} />
@@ -121,12 +121,12 @@ const Footer = () => {
                 Services
               </h4>
               <ul className="space-y-2 text-gray-400">
-                <li>Embedded Systems Development</li>
-                <li>IoT Solutions</li>
-                <li>SaaS Development</li>
-                <li>Technical Consulting</li>
+                <li>Robotics & Autonomous Systems</li>
+                <li>Embedded Linux Development</li>
+                <li>IoT Platform Development</li>
+                <li>Edge AI Solutions</li>
+                <li>PCB Design & Assembly</li>
                 <li>Firmware Development</li>
-                <li>Hardware Design</li>
               </ul>
             </motion.div>
           </div>
@@ -151,7 +151,7 @@ const Footer = () => {
             >
               <FiHeart className="text-red-400" size={14} />
             </motion.div>
-            <span>in Lagos, Nigeria</span>
+            <span>in Abuja, Nigeria</span>
           </div>
         </motion.div>
 

@@ -47,8 +47,8 @@ const Contact = () => {
     {
       icon: FiMail,
       label: 'Email',
-      value: 'bigfavour51@gmail.com',
-      href: 'mailto:bigfavour51@gmail.com'
+      value: 'favouraina51@gmail.com',
+      href: 'mailto:favouraina51@gmail.com'
     },
     {
       icon: FaWhatsapp,

@@ -10,10 +10,10 @@ const About = () => {
   });
 
   const stats = [
-    { icon: FiCode, label: 'Projects Completed', value: '50+' },
-    { icon: FiAward, label: 'Certifications', value: '15+' },
-    { icon: FiUsers, label: 'Clients Served', value: '25+' },
-    { icon: FiTrendingUp, label: 'Years Experience', value: '5+' }
+    { icon: FiCode, label: 'Projects Completed', value: '20+' },
+    { icon: FiAward, label: 'Certifications', value: '4+' },
+    { icon: FiUsers, label: 'Years Experience', value: '7+' },
+    { icon: FiTrendingUp, label: 'Education Level', value: 'HND' }
   ];
 
   return (
@@ -31,7 +31,7 @@ const About = () => {
             <span className="text-base text-gray-400 font-normal ml-2">(Bigfavour)</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Transforming ideas into reality through cutting-edge technology and innovative engineering solutions. I am an Embedded Systems Engineer, Web & Mobile App Developer, and Tech Innovator based in Abuja, Nigeria.
+            Robotics, Embedded Systems, and Edge AI Engineer with hands-on experience designing autonomous systems, embedded Linux platforms, and cloud-connected IoT solutions. Based in Abuja, Nigeria.
           </p>
         </motion.div>
 
@@ -45,27 +45,30 @@ const About = () => {
           >
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-primary-400">
-                Engineering Excellence in Every Solution
+                Building Complete Systems End-to-End
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                As an Embedded Systems Engineer with a passion for innovation, I specialize in 
-                developing robust, scalable solutions that bridge the gap between hardware and software. 
-                My expertise spans from low-level firmware development to modern SaaS applications.
+                As a Robotics, Embedded Systems, and Edge AI Engineer, I specialize in developing 
+                complete systems from hardware and drivers to cloud dashboards and user-facing applications. 
+                My expertise spans microcontroller and SBC-based systems, real-time firmware, embedded Linux 
+                (Buildroot, Yocto), edge intelligence, and full-stack web platforms for device management.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Based in Nigeria's vibrant tech ecosystem, I've had the privilege of working on 
-                diverse projects ranging from IoT devices and industrial automation systems to 
-                cloud-based applications that serve thousands of users globally.
+                Currently working at Innov8 Hub as an Embedded Linux and IoT Engineer, I've led teams 
+                in designing electrical power stations for micro enterprises and have extensive experience 
+                in electronics circuit design, firmware development, PCB design and assembly, and IoT integration.
               </p>
             </div>
 
             <div className="space-y-4">
               <h4 className="text-xl font-semibold text-secondary-400">My Journey</h4>
               <p className="text-gray-400 leading-relaxed">
-                My journey began with a curiosity about how things work, which led me to pursue 
-                embedded systems engineering. Over the years, I've evolved from writing my first 
-                "Hello World" program to architecting complex systems that solve real-world problems. 
-                I believe in continuous learning and staying at the forefront of technological innovation.
+                My journey began with a National Diploma in Computer Engineering from Federal Polytechnic Ilaro, 
+                where I graduated with Distinction. I continued to pursue a Higher National Diploma, also with 
+                Distinction, while building my expertise through freelance work since 2018. I've worked with 
+                companies like Flexenclosure Tech. Ltd and Innov8 Hub, contributing to projects ranging from 
+                telecommunications infrastructure to innovative power management solutions. I believe in continuous 
+                learning and staying at the forefront of robotics, embedded systems, and edge AI technologies.
               </p>
             </div>
 

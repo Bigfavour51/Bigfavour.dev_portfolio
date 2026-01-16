@@ -11,93 +11,79 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: 'Professional PCB Design using EASYEDA',
+      title: 'The Complete Course of EasyEDA and PCB Design',
       issuer: 'UDEMY',
-      date: '2024',
-      description: 'Advance lectures on designing printed circuit boards',
-      credentialId: 'EASYEDA01-CM-2024-001',
+      date: '2023',
+      description: 'Comprehensive course on PCB design using EasyEDA, covering schematic design, layout, and manufacturing',
+      credentialId: 'UDEMY-EASYEDA-2023',
       category: 'Electronics',
       logo: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=100'
     },
     {
-      title: 'AWS Certified IoT Core',
-      issuer: 'Amazon Web Services',
+      title: 'Linux and Shell Scripting',
+      issuer: 'UDEMY',
       date: '2023',
-      description: 'Cloud-based IoT solutions, device management, and data processing',
-      credentialId: 'AWS-IOT-2023-456',
-      category: 'Cloud & IoT',
+      description: 'Linux system administration, command-line tools, and shell scripting for automation and system management',
+      credentialId: 'UDEMY-LINUX-2023',
+      category: 'DevOps',
       logo: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=100'
     },
     {
-      title: 'Certified LabVIEW Developer',
-      issuer: 'National Instruments',
-      date: '2023',
-      description: 'Advanced data acquisition, instrument control, and automated testing',
-      credentialId: 'NI-CLD-2023-789',
-      category: 'Instrumentation',
-      logo: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=100'
-    },
-    {
-      title: 'Professional Scrum Master',
-      issuer: 'Scrum.org',
-      date: '2022',
-      description: 'Agile project management and team leadership methodologies',
-      credentialId: 'PSM-2022-321',
-      category: 'Project Management',
-      logo: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=100'
-    },
-    {
-      title: 'STM32 Advanced Development',
-      issuer: 'STMicroelectronics',
-      date: '2022',
-      description: 'Advanced STM32 microcontroller programming and system optimization',
-      credentialId: 'STM-ADV-2022-654',
+      title: 'Advance Embedded Linux Development',
+      issuer: 'Coursera',
+      date: '2024',
+      description: 'Advanced embedded Linux development including kernel configuration, driver development, and system integration',
+      credentialId: 'COURSERA-EMBEDDED-LINUX-2024',
       category: 'Embedded Systems',
       logo: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=100'
     },
     {
-      title: 'Docker Certified Associate',
-      issuer: 'Docker Inc.',
-      date: '2021',
-      description: 'Container orchestration, deployment, and microservices architecture',
-      credentialId: 'DCA-2021-987',
-      category: 'DevOps',
+      title: 'Cisco Certified Network Associate',
+      issuer: 'Cisco-CCNA',
+      date: '2024',
+      description: 'Network fundamentals, routing and switching, and network security (In Progress)',
+      credentialId: 'CCNA-2024-IN-PROGRESS',
+      category: 'Networking',
       logo: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=100'
     }
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Engineering - Electrical/Electronics Engineering',
-      institution: 'University of Abuja',
-      location: 'FCT, Nigeria',
-      year: '2026 - 2028',
-      gpa: '4.2/5.0',
-      achievements: [
-        'First Class Honours',
-        'Best Graduating Student - Electronics Department',
-        'Outstanding Project Award for IoT-based Smart Grid System'
-      ]
-    },
-    {
       degree: 'Higher National Diploma - Computer Engineering',
       institution: 'Federal Polytechnic, Ilaro',
       location: 'Ilaro, Nigeria',
-      year: '2023',
+      year: '2021 - 2023',
       achievements: [
         'Distinction Grade',
-        'Smart Irrigation using Variable Rate Technology '
+        'Specialized in Embedded Systems and IoT'
       ]
+    },
+    {
+      degree: 'National Diploma - Computer Engineering',
+      institution: 'Federal Polytechnic, Ilaro',
+      location: 'Ilaro, Nigeria',
+      year: '2018 - 2020',
+      achievements: [
+        'Distinction Grade',
+        'Foundation in Computer Engineering'
+      ]
+    },
+    {
+      degree: 'Senior Secondary School Certificate',
+      institution: 'Government College, Umuahia',
+      location: 'Umuahia, Nigeria',
+      year: '2011 - 2017',
+      achievements: []
     }
   ];
 
   const getCategoryColor = (category: string) => {
     const colors = {
       'Embedded Systems': 'from-primary-500 to-primary-600',
-      'Cloud & IoT': 'from-secondary-500 to-secondary-600',
-      'Instrumentation': 'from-purple-500 to-purple-600',
-      'Project Management': 'from-orange-500 to-orange-600',
-      'DevOps': 'from-green-500 to-green-600'
+      'Electronics': 'from-secondary-500 to-secondary-600',
+      'DevOps': 'from-purple-500 to-purple-600',
+      'Networking': 'from-orange-500 to-orange-600'
     };
     return colors[category as keyof typeof colors] || 'from-gray-500 to-gray-600';
   };
