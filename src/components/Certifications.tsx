@@ -200,11 +200,6 @@ const Certifications = () => {
                   </div>
                   <div className="flex flex-col items-end mt-2 lg:mt-0">
                     <span className="text-gray-300 font-medium">{edu.year}</span>
-                    {edu.gpa && (
-                      <span className="text-sm text-secondary-400">
-                        GPA: {edu.gpa}
-                      </span>
-                    )}
                   </div>
                 </div>
                 
