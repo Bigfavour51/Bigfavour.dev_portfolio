@@ -67,7 +67,7 @@ const About = () => {
                 where I graduated with Distinction. I continued with a Higher National Diploma, also with Distinction, 
                 while building my expertise through freelance embedded systems work since 2018. I've worked with 
                 companies like Flexenclosure Technologies Ltd and Innov8 Hub, contributing to projects ranging from 
-                telecom Battery Management Systems diagnostics to power monitoring, EdTech hardware, and IoT platforms. 
+                telecom Battery Management Systems diagnostics to power monitoring, Power Circuitory design and development, AgroTech hardware, EdTech hardware, and IoT platforms. 
                 I believe in continuous learning and staying at the forefront of embedded systems, hardware design, and IoT technologies.
               </p>
             </div>

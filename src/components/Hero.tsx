@@ -77,7 +77,7 @@ const Hero = () => {
               className="text-lg text-gray-400 leading-relaxed max-w-2xl"
             >
               Embedded Systems and Electronics Engineer with over 4 years of hands-on experience designing, prototyping, 
-              and debugging PCB-based IoT and robotics systems. I bridge hardware and firmware on platforms like ESP32 
+              and debugging PCB-based IoT and robotics systems. I bridge hardware and firmware on platforms like Arduino, ESP32 
               and STM32, taking ideas from breadboard prototypes to reliable, production-ready hardware.
             </motion.p>
 
