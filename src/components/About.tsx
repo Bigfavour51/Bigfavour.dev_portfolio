@@ -31,7 +31,7 @@ const About = () => {
             <span className="text-base text-gray-400 font-normal ml-2">(Bigfavour)</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Robotics, Embedded Systems, and Edge AI Engineer with hands-on experience designing autonomous systems, embedded Linux platforms, and cloud-connected IoT solutions. Based in Abuja, Nigeria.
+            Embedded Systems and Electronics Engineer with over 4 years of experience designing PCB-based IoT and robotics systems, embedded Linux platforms, and connected devices that work reliably in real-world environments. Based in Abuja, Nigeria.
           </p>
         </motion.div>
 
@@ -45,13 +45,13 @@ const About = () => {
           >
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-primary-400">
-                Building Complete Systems End-to-End
+                Embedded Systems & Hardware Design End-to-End
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                As a Robotics, Embedded Systems, and Edge AI Engineer, I specialize in developing 
-                complete systems from hardware and drivers to cloud dashboards and user-facing applications. 
-                My expertise spans microcontroller and SBC-based systems, real-time firmware, embedded Linux 
-                (Buildroot, Yocto), edge intelligence, and full-stack web platforms for device management.
+                As an Embedded Systems & Hardware Design Engineer, I specialize in taking products from schematic and PCB 
+                design through firmware, testing, and deployment. My expertise spans ESP32 and STM32-based systems, 
+                multi-layer PCB design, embedded Linux (Buildroot, Yocto), sensor integration, and IoT connectivity for 
+                real-world devices.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
                 Currently working at Innov8 Hub as an Embedded Linux and IoT Engineer, I've led teams 
@@ -64,11 +64,11 @@ const About = () => {
               <h4 className="text-xl font-semibold text-secondary-400">My Journey</h4>
               <p className="text-gray-400 leading-relaxed">
                 My journey began with a National Diploma in Computer Engineering from Federal Polytechnic Ilaro, 
-                where I graduated with Distinction. I continued to pursue a Higher National Diploma, also with 
-                Distinction, while building my expertise through freelance work since 2018. I've worked with 
-                companies like Flexenclosure Tech. Ltd and Innov8 Hub, contributing to projects ranging from 
-                telecommunications infrastructure to innovative power management solutions. I believe in continuous 
-                learning and staying at the forefront of robotics, embedded systems, and edge AI technologies.
+                where I graduated with Distinction. I continued with a Higher National Diploma, also with Distinction, 
+                while building my expertise through freelance embedded systems work since 2018. I've worked with 
+                companies like Flexenclosure Technologies Ltd and Innov8 Hub, contributing to projects ranging from 
+                telecom Battery Management Systems diagnostics to power monitoring, EdTech hardware, and IoT platforms. 
+                I believe in continuous learning and staying at the forefront of embedded systems, hardware design, and IoT technologies.
               </p>
             </div>
 

@@ -103,7 +103,7 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Showcasing innovative solutions across robotics, embedded systems, IoT, and edge AI development
+            Showcasing embedded systems, PCB hardware design, IoT platforms, and robotics projects
           </p>
         </motion.div>
 

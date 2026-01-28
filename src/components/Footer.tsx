@@ -58,8 +58,8 @@ const Footer = () => {
                 Bigfavour.dev
               </h3>
               <p className="text-gray-400 mb-4 max-w-md">
-                Robotics, Embedded Systems, and Edge AI Engineer based in Abuja, Nigeria. 
-                Building complete systems end-to-end from hardware to cloud.
+                Embedded Systems & Hardware Design Engineer based in Abuja, Nigeria. 
+                Designing PCB-based IoT and robotics systems from prototype to production-ready hardware.
               </p>
               <div className="flex items-center space-x-2 text-gray-400 mb-4">
                 <FiMapPin className="text-primary-400" size={16} />

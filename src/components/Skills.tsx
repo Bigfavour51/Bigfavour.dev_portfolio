@@ -10,57 +10,53 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Robotics & Autonomous Systems',
+      title: 'PCB Design & Electronics',
       skills: [
-        { name: 'Mobile Robots Design & Control', level: 90 },
-        { name: 'Sensor Fusion (IMU, Ultrasonic, Encoders, Cameras)', level: 85 },
-        { name: 'Motor Drivers & Kinematics', level: 88 },
-        { name: 'Navigation Logic', level: 85 },
-        { name: 'Raspberry Pi & BeagleBone Black', level: 90 }
+        { name: 'Schematic Capture & Multi-layer PCB Layout (EasyEDA, KiCad/Eagle-ready)', level: 95 },
+        { name: 'DFM & DFA (Design for Manufacturing & Assembly)', level: 90 },
+        { name: 'Power Management & Signal Integrity', level: 88 },
+        { name: 'Sensor Interfacing & Analog Front-Ends', level: 85 },
+        { name: 'PCB Bring-up, Validation & Revision Control', level: 90 }
       ],
       color: 'primary'
     },
     {
       title: 'Embedded Systems & Firmware',
       skills: [
-        { name: 'STM32, ESP32, AVR, PIC', level: 95 },
-        { name: 'C/C++ Real-time Firmware', level: 95 },
-        { name: 'Peripheral Drivers (UART, SPI, I2C, ADC, PWM)', level: 90 },
-        { name: 'Embedded Linux Driver Development', level: 85 },
-        { name: 'Buildroot & Yocto Project', level: 88 }
+        { name: 'ESP32, STM32, AVR, Arduino', level: 95 },
+        { name: 'C/C++ Firmware Development', level: 95 },
+        { name: 'Peripheral Drivers (UART, SPI, I²C, ADC, PWM)', level: 92 },
+        { name: 'Embedded Linux (Buildroot, Yocto)', level: 88 }
       ],
       color: 'secondary'
     },
     {
-      title: 'Edge AI & Computing',
+      title: 'IoT & Connectivity',
       skills: [
-        { name: 'Edge AI Model Deployment', level: 85 },
-        { name: 'Device-level Inference', level: 85 },
-        { name: 'Data Acquisition & Preprocessing', level: 88 },
-        { name: 'System-level Optimization for Low-power Devices', level: 82 }
+        { name: 'Wi-Fi, MQTT & HTTP-based IoT Devices', level: 90 },
+        { name: 'AWS IoT Core & Cloud-connected Devices', level: 88 },
+        { name: 'Secure Device Communication & Remote Monitoring', level: 88 },
+        { name: 'OTA-ready System Architectures', level: 85 },
+        { name: 'LoRa, GSM, Bluetooth (Integration & Expansion)', level: 80 }
       ],
       color: 'purple'
     },
     {
-      title: 'IoT, Web & Mobile Platforms',
+      title: 'Testing & Debugging',
       skills: [
-        { name: 'TypeScript & JavaScript', level: 90 },
-        { name: 'React', level: 88 },
-        { name: 'Backend & APIs for IoT', level: 85 },
-        { name: 'Supabase (Auth, DB, Storage)', level: 85 },
-        { name: 'Real-time Device Monitoring Dashboards', level: 88 },
-        { name: 'OTA-ready Architectures', level: 80 }
+        { name: 'Oscilloscope, Logic Analyzer, Multimeter', level: 92 },
+        { name: 'Bench Power Supply & Hardware Bring-up', level: 90 },
+        { name: 'Hardware Fault Isolation & Root-cause Analysis', level: 90 },
+        { name: 'Functional Testing of PCB Assemblies', level: 88 }
       ],
       color: 'orange'
     },
     {
-      title: 'Cloud & DevOps (IoT-Focused)',
+      title: 'Tools & Workflow',
       skills: [
-        { name: 'AWS IoT Core', level: 88 },
-        { name: 'API Gateway, Lambda, DynamoDB, S3', level: 85 },
-        { name: 'Linux & Shell Scripting', level: 90 },
-        { name: 'Version Control (Git)', level: 92 },
-        { name: 'Supabase', level: 85 }
+        { name: 'Linux, Git & Shell Scripting', level: 92 },
+        { name: 'Technical Documentation & Test Reports', level: 88 },
+        { name: 'Microsoft Word, Excel & PowerPoint', level: 85 }
       ],
       color: 'green'
     }

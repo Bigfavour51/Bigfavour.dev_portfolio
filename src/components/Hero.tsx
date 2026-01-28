@@ -66,7 +66,7 @@ const Hero = () => {
                 transition={{ delay: 0.4 }}
                 className="text-xl lg:text-2xl text-gray-300 font-medium"
               >
-                Robotics and Edge AI specialist | Embedded Linux Engineer | Web & Mobile App Developer | Tech Innovator | SaaS Developer
+                Embedded Systems & Hardware Design Engineer | PCB & IoT Hardware Specialist | Embedded Linux Engineer
               </motion.h2>
             </div>
 
@@ -76,9 +76,9 @@ const Hero = () => {
               transition={{ delay: 0.5 }}
               className="text-lg text-gray-400 leading-relaxed max-w-2xl"
             >
-              Passionate about creating innovative solutions through Robotics and AI, embedded systems, 
-              IoT technologies, and modern software development. I bridge the gap between 
-              hardware and software to build the future of technology.
+              Embedded Systems and Electronics Engineer with over 4 years of hands-on experience designing, prototyping, 
+              and debugging PCB-based IoT and robotics systems. I bridge hardware and firmware on platforms like ESP32 
+              and STM32, taking ideas from breadboard prototypes to reliable, production-ready hardware.
             </motion.p>
 
             <motion.div
@@ -149,11 +149,11 @@ const Hero = () => {
               >
                 <div className="w-full h-full rounded-full bg-dark-800 flex items-center justify-center overflow-hidden">
                   <img
-                    src="/IMG_1032.jpeg"
-                    alt="Aina Favour Olalekan - Embedded Systems Engineer, Web & Mobile App Developer"
-                    className="w-full h-full object-cover rounded-full"
-                    loading="lazy"
-                  />
+                  src="/IMG_1032.jpeg"
+                  alt="Aina Favour Olalekan - Embedded Systems & Hardware Design Engineer"
+                  className="w-full h-full object-cover rounded-full"
+                  loading="lazy"
+                />
                 </div>
               </motion.div>
               
